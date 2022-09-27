@@ -8,7 +8,7 @@ import Projects from "./components/Projects";
 
 export default function App() {
   return (
-    <div className="bg-repeat ">
+    <div className="bg-repeat overflow-x-hidden">
       <Navbar />
       <About />
       <AboutMe />

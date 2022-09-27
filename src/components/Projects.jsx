@@ -9,34 +9,35 @@ import js from "../logo/js.png";
 import react from "../logo/react.png";
 import redux from "../logo/redux.png";
 import tailwind from "../logo/tailwind.png";
+import syncfusion from "../logo/syncfusion.png";
 import Marquee from "react-fast-marquee";
 
 const Projects = () => {
   const data = [
     {
       name: "Myntra Clone",
-      tec: ["REACT", "CSS"],
+      tec: [react, css],
       link: "http://abhi-myntra.herokuapp.com/",
       img: myntraImage,
       git: "https://github.com/abhsin96/Myntra",
     },
     {
       name: "Admin DashBoard",
-      tec: ["REACT", "Tailwind", "Syncfusion"],
+      tec: [react, tailwind, syncfusion],
       link: "https://coruscating-salamander-3a0613.netlify.app/",
       img: dashboard,
       git: "https://github.com/abhsin96/Admin-Dashboard",
     },
     {
       name: "Weather App",
-      tec: ["REACT", "CSS"],
+      tec: [react, css],
       link: "https://magnificent-fudge-e6a430.netlify.app/",
       img: weather,
       git: "https://github.com/abhsin96/weatherApp",
     },
   ];
   return (
-    <div id="projects" className="md:h-screen ">
+    <div id="projects" className="h-max mt-10">
       <p className="flex justify-center w-full text-orange-600 text-3xl mb-10 uppercase font-bold">
         Projects
       </p>

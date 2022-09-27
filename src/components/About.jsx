@@ -18,9 +18,9 @@ const About = () => {
   return (
     <div
       id="home"
-      className="flex flex-col h-max bg-black lg:flex-row md:items-center w-screen  gap-3 text-white md:h-screen"
+      className="flex flex-col h-screen md:h-screen bg-black lg:flex-row md:items-center w-screen  md:gap-3 text-white "
     >
-      <div className="flex flex-col ml-10 mt-28 md:ml-20 gap-3 w-1/2 md:mb-36">
+      <div className="flex flex-col ml-10 mt-52 md:mt-40 md:ml-20 gap-3 w-1/2 md:mb-36">
         <p className="text-3xl text-white w-screen">Hello, my name is</p>
         <p className="text-5xl w-max text-white">Abhishek Singh</p>
         <div className="text-4xl w-max text-orange-600">

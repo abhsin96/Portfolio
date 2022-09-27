@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="h-screen flex flex-col items-center ml-10 mr-10"
+      className="md:h-screen h-max flex flex-col items-center ml-10 mr-10"
     >
       <div>
         <div className="mb-4 text-5xl tracking-tight font-extrabold text-center text-orange-700">
@@ -124,7 +124,7 @@ const Contact = () => {
                 onClick={(e) => {
                   e.preventDefault();
                 }}
-                class="py-3 px-5 text-sm font-medium text-center py-3 px-5 text-base font-medium text-center text-white bg-orange-600 rounded-lg hover:bg-orange-800 focus:ring-4 focus:outline-none focus:ring-orange-600"
+                class="py-3 px-5 text-base font-medium text-center text-white bg-orange-600 rounded-lg hover:bg-orange-800 focus:ring-4 focus:outline-none focus:ring-orange-600"
               >
                 Send message
               </button>
