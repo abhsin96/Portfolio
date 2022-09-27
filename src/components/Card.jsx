@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = ({ name, link, tec, img, git }) => {
   return (
-    <div className="card transform transition border-r-4 duration-500 hover:scale-110 h-max flex flex-col gap-2">
+    <div className="card transform transition border-r-6 duration-500 hover:scale-105 h-max flex flex-col gap-2">
       <div className="flex flex-col justify-between gap-2">
         <img className="h-full w-full" src={img} alt={name} />
         <p className="flex justify-center text-xl font-bold text-orange-800">
@@ -10,7 +10,7 @@ const Card = ({ name, link, tec, img, git }) => {
         </p>
         <p className="flex justify-between text-xl font-bold text-orange-800">
           {tec.map((tec, idx) => (
-            <img className="h-20 m-2" key={idx} src={tec} />
+            <img className="h-20 m-2" key={idx} src={tec} alt={tec} />
           ))}
         </p>
       </div>

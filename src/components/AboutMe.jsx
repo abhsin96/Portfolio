@@ -4,7 +4,7 @@ import profile from "../abhishek_singh.jpg";
 const AboutMe = () => {
   return (
     <div id="about" className="h-max md:h-screen flex flex-col items-center ">
-      <div className=" flex flex-col items-center ml-10 mr-10">
+      <div className=" flex flex-col items-center ml-20 mr-20 P-5">
         <div className="inline object-cover md:w-80 md:h-80 w-40 h-40 mr-2 rounded-full mt-3 mb-5 md:mb-10">
           <img
             className="inline object-cover md:w-80 md:h-80 w-40 h-40 rounded-full"

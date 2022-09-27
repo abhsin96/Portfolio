@@ -17,7 +17,7 @@ const Projects = () => {
     {
       name: "Myntra Clone",
       tec: [react, css],
-      link: "http://abhi-myntra.herokuapp.com/",
+      link: "https://sprightly-marzipan-9451ad.netlify.app/",
       img: myntraImage,
       git: "https://github.com/abhsin96/Myntra",
     },
