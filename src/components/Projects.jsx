@@ -36,7 +36,7 @@ const Projects = () => {
     },
   ];
   return (
-    <div id="projects" className="md:h-screen">
+    <div id="projects" className="md:h-screen ">
       <p className="flex justify-center w-full text-orange-600 text-3xl mb-10 uppercase font-bold">
         Projects
       </p>

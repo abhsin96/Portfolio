@@ -5,9 +5,9 @@ const AboutMe = () => {
   return (
     <div id="about" className="h-screen flex flex-col items-center ">
       <div className=" flex flex-col items-center ml-10 mr-10">
-        <div className="inline object-cover w-80 h-80 mr-2 rounded-full mt-3 mb-10">
+        <div className="inline object-cover md:w-80 md:h-80 w-40 h-40 mr-2 rounded-full mt-3 mb-5 md:mb-10">
           <img
-            className="inline object-cover w-80 h-80 rounded-full"
+            className="inline object-cover md:w-80 md:h-80 w-40 h-40 rounded-full"
             src={profile}
             alt="profile"
           />
