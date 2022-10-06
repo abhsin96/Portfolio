@@ -31,9 +31,9 @@ const Projects = () => {
     {
       name: "Disney+ Clone",
       tec: [react, css, redux],
-      link: "https://github.com/abhsin96/Disney-Clone/",
+      link: "https://disney-clone-66d13.web.app/",
       img: disney,
-      git: "https://disney-clone-66d13.web.app/",
+      git: "https://github.com/abhsin96/Disney-Clone/",
     },
   ];
   return (
