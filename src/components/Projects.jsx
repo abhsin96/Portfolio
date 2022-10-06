@@ -2,7 +2,7 @@ import React from "react";
 import Card from "./Card";
 import myntraImage from "../myntra.png";
 import dashboard from "../dashboard.png";
-import weather from "../weather.png";
+import disney from "../Disney.png";
 import css from "../logo/css2.png";
 import html from "../logo/html.png";
 import js from "../logo/js.png";
@@ -29,11 +29,11 @@ const Projects = () => {
       git: "https://github.com/abhsin96/Admin-Dashboard",
     },
     {
-      name: "Weather App",
-      tec: [react, css],
-      link: "https://magnificent-fudge-e6a430.netlify.app/",
-      img: weather,
-      git: "https://github.com/abhsin96/weatherApp",
+      name: "Disney+ Clone",
+      tec: [react, css, redux],
+      link: "https://github.com/abhsin96/Disney-Clone/",
+      img: disney,
+      git: "https://disney-clone-66d13.web.app/",
     },
   ];
   return (
